@@ -1,0 +1,64 @@
+@media (min-width: 992px) {
+    
+    .hamburger, .toggle-menu {
+        display: block;
+    }
+
+    .page-nav {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        padding: 10px 20px;
+    }
+    .seznam {
+        display: none;
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 95px;
+        right: 0;
+        background-color: #EB6C27;
+        width: 100%;
+        height: 340px;
+        font-size: 1em;
+        padding-top: 20px;
+    }
+
+    .seznam li{
+        width: 100%;
+        margin-top: 1.5em;
+    }
+
+    
+    .seznam li a {
+        padding: 30px;
+        color: white;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+    }
+
+    .seznam li:first-child{
+        margin-top: 0;
+    }
+
+    .seznam li {
+        width: 100%;
+    }
+
+    .seznam li a {
+        padding: 30px;
+        font-size: 1.5em;
+    }
+
+    .menu-name {
+        display: block;
+        position: absolute;
+        top: 12px;
+    }
+
+    .seznam li a.active {
+        font-weight: 700;
+    }
+}
+
+
