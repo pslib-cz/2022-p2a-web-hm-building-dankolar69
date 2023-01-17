@@ -4,6 +4,8 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     color: #3A3A3A;
 }
 
@@ -38,6 +40,11 @@ img {
     display: block;
     margin: 0;
     padding: 0;
+}
+
+.logo img {
+    height: 4em;
+
 }
 
 .hamburger {
@@ -79,31 +86,6 @@ img {
     transition: 0.3s;
 }
 
-.seznam li a:hover {
-    box-shadow: 0 -5px 0px #EB6C27 inset, 
-    500px 0 0 rgba(235, 108, 39, 0.1) inset;
-}
-
-.hamburger:before, .hamburger:after{
-    content: "";
-    position: absolute;
-    width: 46px;
-    height: 8px;
-    background: linear-gradient(90deg, #EB6C27 0%, #FFBE9A 100%);
-    right: 0;
-    transition: 0.3s;
-}
-
-.hamburger:after{
-    top: 13px;
-    width: 36;
-}
-
-.hamburger:before{
-    top: -13px;
-    width: 36;
-}
-
 .toggle-menu {
     position: absolute;
     width: 46px;
@@ -115,6 +97,15 @@ img {
 
 .hamburger, .toggle-menu {
     display: none;
+}
+
+.menu-name {
+    display: none;
+    right: 24px;
+}
+
+.header-main{
+    background-image: url(../media/media/pageheader-1920w.jpg);
 }
 
 
