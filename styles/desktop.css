@@ -1,0 +1,18 @@
+@media screen and (min-width: 1150px) {
+    
+    .header-main{
+        
+
+height: 1080px;
+
+        }
+
+    .header-name{
+        font-size: 120px;
+        margin-bottom: 3em;
+    }
+    .header-description{
+        font-size: 60px;
+        margin-bottom: 5em;
+    }
+}
