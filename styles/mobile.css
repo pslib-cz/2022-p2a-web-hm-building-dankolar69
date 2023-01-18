@@ -1,7 +1,7 @@
 .page-nav{
     background-color: var(--black);
     box-shadow: 1px 1px 5px 0px var(--gray);
-    position: sticky;
+    
     top: 0;
     width: 100%;
 }
@@ -17,8 +17,10 @@
     
 
     
-    
-    width: 100%;
+    z-index: 9;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
     height: auto;
     position: fixed;
     background-color: orange;
