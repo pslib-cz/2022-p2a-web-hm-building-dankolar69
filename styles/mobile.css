@@ -23,7 +23,7 @@
     transform: translate(-50%);
     height: auto;
     position: fixed;
-    background-color: orange;
+    background-color: #EB6C27;
     overflow: hidden;
 
 }
@@ -33,7 +33,7 @@
     color: white;
 }
 .seznam a:hover{
-    background-color: orange;
+    background-color: #EB6C27;
 }
 .nav{
     max-height: 0;
@@ -178,5 +178,26 @@
     margin-top: 4em;
 }
 
+.convince{
+    margin-top: 46px;
+    width: 100%;
+    height: 10.5em;
+    left: 0;
+    top: 0;
+    position: relative;
+    
+
+}
+.convince-content{
+    max-width: 1510px;
+    width: calc(100% - 2em);
+    margin: 0 1em;
+    margin-top: 23px;
+    
+}
+
+.button-filled{
+    margin-top: 20px;
+}
 
 
