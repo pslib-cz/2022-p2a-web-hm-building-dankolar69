@@ -209,6 +209,7 @@
     margin-left: 21px;
     margin-right: 21px;
     margin-top: 46px;
+    margin-bottom: 6em;
 }
 
 .reference-header h2{
@@ -238,7 +239,7 @@
 }
 .button-filled.center{
     margin: auto;
-    margin-bottom: 6em;
+    
 }
 footer{
     padding: 1.5em;
@@ -246,6 +247,7 @@ footer{
     background-color: #EB6C27;
     color: white;
     margin-bottom: 0.5em;
+    
 }
 footer h2{
     margin-bottom: 1em;
@@ -272,12 +274,49 @@ footer p{
     line-height: 18px;
 }
 
-.reference1-header{
+.header-1{
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
 line-height: 41px;
 margin-bottom: 20px;
-margin-top: 116px;
+
+}
+.header-1.ref{
+    margin-top: 116px;
+}
+
+.novostavby{
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 46px;
+}
+.novostavby-header p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.novostavby-seznam{
+    list-style: none;
+    margin-bottom: 6em;
+}
+.novostavby-item{
+    margin: 0;
+    
+}
+.novostavby-item::before{
+    content: "\2022"; 
+    color: #EB6C27; 
+    padding: 0px;
+    gap: 6px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 19px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    margin-bottom: 6px;
+}
+.header-1.nov{
+    margin-top: 1em;
 }
