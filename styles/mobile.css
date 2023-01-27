@@ -320,3 +320,8 @@ margin-bottom: 20px;
 .header-1.nov{
     margin-top: 1em;
 }
+.novostavby-seznam2{
+    list-style: none;
+    margin-bottom: 6em;
+    margin-left: 2em;
+}
