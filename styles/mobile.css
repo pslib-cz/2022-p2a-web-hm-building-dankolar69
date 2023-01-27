@@ -299,6 +299,7 @@ margin-bottom: 20px;
 .novostavby-seznam{
     margin-left: 2em;
     margin-bottom: 6em;
+    list-style-type: disc;
 }
 .novostavby-item{
     margin: 0;
@@ -315,13 +316,15 @@ margin-bottom: 20px;
 .header-1.nov{
     margin-top: 1em;
 }
-.novostavby-seznam2{
-    list-style: none;
-    margin-bottom: 6em;
-    margin-left: 2em;
-}
+
 .novostavby-header h3{
     margin-bottom: 1em;
+}
+.novostavby-seznam.onas{
+    margin-bottom: 1em;
+}
+.p-margin{
+    margin-bottom: .5em;
 }
 
 
