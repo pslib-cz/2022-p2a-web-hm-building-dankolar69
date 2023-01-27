@@ -3,11 +3,7 @@ html {
   
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    color: #3A3A3A;
-}
+
 
 *{
     margin: 0;
