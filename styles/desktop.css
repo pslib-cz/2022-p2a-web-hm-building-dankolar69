@@ -1,4 +1,4 @@
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1281px) {
     
     .header-main{
         
@@ -15,4 +15,47 @@
         font-size: 60px;
         margin-bottom: 5em;
     }
+
+    .page-nav {
+        display: flex;
+        justify-content: flex-end;
+        z-index: 999;
+        position: absolute;
+        height: 90px;
+        transform: translate(-50%);
+        left: 50%;
+        top: 43px;
+        width: 90%;
+        max-width: 1510px;
+        background-color: white;
+    }
+   
+   .seznam{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+    transition: 0.5s;
+    background-color: white;
+    list-style: none;
+   }
+   .side-menu{
+    display: none;
+   }
+
+   
+   
+    .menu-name{
+        display: none;
+    }
+    
+   
+    .logo{
+        position: absolute;
+        left: 0;
+    }
+
+    
+
 }
