@@ -30,17 +30,35 @@
         background-color: white;
     }
    
-   .seznam{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    
-    transition: 0.5s;
+   .nav{
     background-color: white;
+    transform: unset;
+    width: fit-content;
+    position: unset;
+    
+    overflow: visible;
+    display: flex;
+    margin-top: 1Opx;
+    
+   }
+   .seznam{
     list-style: none;
+    flex-direction: row;
+    display: flex;
+    
+   }
+   .seznam a{
+    color: gray;
+    padding: 35px;
+    
    }
    .side-menu{
+    display: none;
+   }
+   .hamb{
+    display: none;
+   }
+   .hamb-line{
     display: none;
    }
 
