@@ -56,6 +56,92 @@
         left: 0;
     }
 
-    
+    .buildings-header{
+        text-align: center;
+        margin-top: 150px;
+        
+    }
+    .buildings-header h2{
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 82px;
 
+    }
+    .buildings-header p{
+        max-width: 890px;
+        margin: 1em auto 6em auto;
+    }
+    .services{
+        max-width: 1510px;
+        margin: 5em auto 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: left;
+        align-items: center;
+    }
+    .left-text{
+        grid-column: 1;
+        grid-row: 1;
+        margin-left: 0;
+        width: 95%;
+    }
+    .left-image{
+        grid-column: 1;
+        width: 95%;
+    }
+    .right-text{
+        grid-column: 2;
+        width: 95%;
+    }
+    .right-image{
+        grid-column: 2;
+        border-radius: 0px 0px 0px 40px;
+        width: 95%;
+    }
+    .service-description{
+        padding: 0;
+        height: 20em;
+        padding-top: 50px;
+    }
+    .obraz{
+        height: 18em;
+        
+    }
+    .buildings{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    .reference{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    .reference-header{
+        text-align: center;
+        margin-top: 150px;
+    }
+    .reference-header h2{
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 82px;
+
+    }
+    .reference-header p{
+        max-width: 890px;
+        margin: 1em auto 6em auto;
+    }
+    .convince{
+        height: 400px;
+    }
+    .convince-content{
+        margin-top: 2em;
+        margin-left: 2em;
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 120%;
+    }
+    .galerie-reference{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+    }
 }
