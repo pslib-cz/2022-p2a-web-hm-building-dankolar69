@@ -1,15 +1,18 @@
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1000px) {
     
     .header-main{
         
 
-        height: 800px;
+        min-height: 800px;
 
         }
 
     .header-name{
         font-size: 120px;
         margin-bottom: 0.5em;
+    }
+    .header2{
+        font-size: 60px;
     }
     .header-description{
         font-size: 60px;
@@ -29,7 +32,28 @@
         max-width: 1510px;
         background-color: white;
     }
-   
+    .button{
+        color: white;
+        background-color: #EB6C27;
+        border: none;
+        text-decoration: none;
+        padding: 0.8em 2em 0.8em 2em;
+        display: block;
+        
+        position: absolute;
+        margin-left: 45%;
+        margin-right: 45%;
+        margin-top: 720px;
+        
+    }
+    .arrow{
+        
+        height: 0.7em;
+        position: absolute;
+        margin-top: 0.3em;
+        margin-left: 0.3em;
+    }
+    
    .nav{
     background-color: white;
     transform: unset;
@@ -47,11 +71,21 @@
     display: flex;
     
    }
+   .seznam a.page_active{
+    background-color: #EB6C27;
+    color: white;
+   }
    .seznam a{
     color: gray;
-    padding: 35px;
+    padding: 36px;
     
    }
+   .seznam a:hover{
+    background-color: #EB6C27;
+    color: white;
+   }
+
+   
    .side-menu{
     display: none;
    }
@@ -125,6 +159,9 @@
         height: 18em;
         
     }
+    .header-1.ref{
+        text-align: center;
+    }
     .buildings{
         margin-left: 5em;
         margin-right: 5em;
@@ -132,7 +169,9 @@
     .reference{
         margin-left: 5em;
         margin-right: 5em;
+        
     }
+    
     .reference-header{
         text-align: center;
         margin-top: 150px;
@@ -141,6 +180,7 @@
         font-weight: 600;
         font-size: 50px;
         line-height: 82px;
+        text-align: center;
 
     }
     .reference-header p{
@@ -160,7 +200,30 @@
     .galerie-reference{
         display: flex;
         flex-direction: row;
+        justify-content: center;
         gap: 2em;
+    }
+    .novostavby-header{
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 150px;
+    }
+    .header-1.nov{
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 82px;
+        text-align: center;
+    }
+    .novostavby{
+        margin-bottom: 5em;
+    }
+    .novostavby-seznam.onas{
+        margin-left: 5em;
+        margin-bottom: 2em;
+    }
+    .novostavby-seznam.rekonstrukce{
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
     
 }
