@@ -156,6 +156,12 @@
 .buildings-header{
     margin-top: 5em;
 }
+.page__gallery_container {
+    width: 100%;
+}
+.page__gallery_container {
+    margin-top: 3em;
+}
 .buildings-header h2{
     margin-right: 63px;
     font-weight: 700;
@@ -164,6 +170,9 @@
 .buildings-header p{
     padding-top: 20px;
     
+}
+.page__gallery_img {
+    width: 100%;
 }
 
 .obraz{

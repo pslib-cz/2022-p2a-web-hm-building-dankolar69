@@ -159,9 +159,30 @@
         height: 18em;
         
     }
+    .p-center{
+        text-align: center;
+    }
     .header-1.ref{
         text-align: center;
     }
+    .page__gallery_container {
+        max-width: 1510px;
+        margin: 3em auto;
+        display: grid;
+        grid-auto-flow: dense;
+        grid-template-columns: repeat(3, 1fr);
+        
+        
+        gap: 1.5em;
+    }
+    .page__gallery_img--3h {
+        
+        grid-row: span 3;
+        grid-column-start: 2;
+        
+    }
+    
+
     .buildings{
         margin-left: 5em;
         margin-right: 5em;
@@ -225,5 +246,19 @@
         margin-top: 1em;
         margin-bottom: 1em;
     }
+    .info-item{
+        margin-left: 1em;
+    }
     
+}
+
+
+
+
+@media screen and (min-width: 500px) {
+
+    .header-main{
+        height: 400px;
+    }
+
 }
