@@ -249,7 +249,11 @@
     .info-item{
         margin-left: 1em;
     }
-    
+    .nav_backg{
+        display: block;
+        height: 170px;
+        background-image: linear-gradient(0deg, rgba(36, 36, 36, 0.4), rgba(36, 36, 36, 0.4)), url(../media/media/pageheader-1920w.jpg) ;
+    }
 }
 
 
