@@ -29,6 +29,7 @@ a {
     font-size: 0.8em;
     line-height: 17px;
     color: #EB6C27;
+    display: inline-block;
     
 }
 
@@ -49,7 +50,7 @@ a {
     box-shadow: 1px 1px 5px 0px var(--gray);
     z-index: 999;
     top: 0;
-    width: 100%;
+    
 }
 
 .logo{
