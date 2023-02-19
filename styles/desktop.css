@@ -279,6 +279,7 @@
         margin-top: -30em;
         width: 50%;
         height: 50%;
+        max-height: 400px;
         object-fit: cover;
         
     }
