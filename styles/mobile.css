@@ -26,7 +26,7 @@ a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.8em;
     line-height: 17px;
     color: #EB6C27;
     
@@ -55,9 +55,9 @@ a {
 .logo{
     display: inline-block;
     color: var(--white);
-    font-size: 60px;
-    margin-left: 10px;
-    margin-top: 10px;
+    font-size: 3.75em;
+    margin-left: .2em;
+    margin-top: .2em;
 }
 
 .nav{
@@ -123,7 +123,7 @@ a {
     top: 0;
     right: 2em;
     margin-top: 1em;
-    font-size: 12px;
+    font-size: 0.75em;
     
 }
 .side-menu {
@@ -161,7 +161,7 @@ a {
 }
 .header-name{
     font-weight: 800;
-    font-size: 30px;
+    font-size: 1.8em;
     color: white;
     position:absolute;
     bottom:20px;
@@ -172,12 +172,12 @@ a {
 }
 .header2{
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 27px;
 }
 .header-description{
     font-weight: 200;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 27px;
     color: white;
     position:absolute;
@@ -211,7 +211,7 @@ a {
 .buildings-header h2{
     margin-right: 63px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.2em;
 }
 .buildings-header p{
     padding-top: 20px;
@@ -306,7 +306,7 @@ footer h2{
 }
 footer p{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.93em;
     line-height: 18px;
     margin-bottom: 1em;
 }
@@ -322,7 +322,7 @@ footer p{
     position: relative;
     margin: auto;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 0.93em;
     line-height: 18px;
 }
 
@@ -330,7 +330,7 @@ footer p{
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
-font-size: 30px;
+font-size: 1.86em;
 line-height: 41px;
 margin-bottom: 20px;
 
@@ -355,14 +355,14 @@ margin-bottom: 20px;
 }
 .novostavby-item{
     margin: 0;
-    font-size: 15px;
+    font-size: 0.93em;
     
 }
 .novostavby-item::marker{
     
     color: #EB6C27; 
     
-    font-size: 20px;
+    font-size: 1.25em;
     
 }
 .header-1.nov{
@@ -389,7 +389,7 @@ line-height: 19px;
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
-font-size: 14px;
+font-size: 0.875em;
 line-height: 19px;
 position: relative;
 margin-left: 5em;
@@ -457,7 +457,7 @@ margin-left: 5em;
 
 .login__container h3{
     font-weight: 700;
-font-size: 22px;
+font-size: 1.375em;
 line-height: 30px;
 }
 

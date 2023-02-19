@@ -8,14 +8,14 @@
         }
 
     .header-name{
-        font-size: 120px;
+        font-size: 7.5em;
         margin-bottom: 0.5em;
     }
     .header2{
-        font-size: 60px;
+        font-size: 0.5em;
     }
     .header-description{
-        font-size: 60px;
+        font-size: 0.5em;
         margin-bottom: 5em;
     }
 
@@ -115,7 +115,7 @@
     }
     .buildings-header h2{
         font-weight: 600;
-        font-size: 50px;
+        font-size: 3.1em;
         line-height: 82px;
 
     }
@@ -199,7 +199,7 @@
     }
     .reference-header h2{
         font-weight: 600;
-        font-size: 50px;
+        font-size: 3.1em;
         line-height: 82px;
         text-align: center;
 
@@ -215,7 +215,7 @@
         margin-top: 2em;
         margin-left: 2em;
         font-weight: 800;
-        font-size: 27px;
+        font-size: 1.66em;
         line-height: 120%;
     }
     .galerie-reference{
@@ -231,7 +231,7 @@
     }
     .header-1.nov{
         font-weight: 600;
-        font-size: 50px;
+        font-size: 3.1em;
         line-height: 82px;
         text-align: center;
     }
